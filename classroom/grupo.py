@@ -1,5 +1,3 @@
-
-from classroom.asignatura import Asignatura
 from classroom.asignatura import Asignatura
 
 
@@ -18,7 +16,7 @@ class Grupo:
 
     def agregarAlumno(self, alumno, lista=[]):
         if(lista != []):
-            lista = []
+            
             lista.append(alumno)
             self.listadoAlumnos = self.listadoAlumnos + lista
         else:
